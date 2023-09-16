@@ -1,0 +1,970 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+}
+
+.container {
+  padding-top: 60px;
+  position: relative;
+}
+
+header {
+  position: relative;
+}
+
+.kucing {
+  position: absolute;
+  bottom: 0;
+  right: 470px;
+  z-index: 99;
+}
+.star1 {
+  position: absolute;
+  left: 450px;
+  top: 120px;
+
+}
+.star2 {
+  position: absolute;
+  Top: 750px;
+  Left: 40px;
+}
+.star3 {
+  position: absolute;
+  left: 370px;
+  top: 700px;
+
+}
+.row {
+  justify-content: space-around;
+}
+.kiri {
+  width: 624px !important;
+  height: 821px;
+  border-radius: 20px;
+  background: rgba(164, 186, 187, 0.44);
+}
+.kanan {
+  width: 646px !important;
+  height: 821px;
+  border-radius: 20px;
+  background: #d2d1e3;
+  position: relative;
+}
+.kanan img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 40px;
+}
+
+/* NAVBAR */
+.navbar {
+  margin-top: 46px;
+}
+.navbar-brand {
+  color: #000;
+  font-family: "Inter";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.navbar-nav .nav-item {
+  color: #000;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  align-items: center;
+  display: grid;
+}
+
+.navbar-nav .nav-item .trolley {
+}
+.navbar-nav .nav-item .bulat {
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+.navbar-nav .nav-item img {
+  position: absolute;
+}
+
+/* CONTENT */
+.content {
+}
+.content h1 {
+  color: #000;
+  font-family: "inter";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 365px;
+  position: relative;
+  margin-left: 41px;
+  margin-top: 35px;
+}
+
+.content h1 img {
+  position: absolute;
+  right: 3px;
+  top: 72px;
+  width: 103px;
+  height: 102px;
+}
+
+.content p {
+  color: #000;
+  font-family: "inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 361px;
+  margin-left: 41px;
+  margin-bottom: 35px;
+}
+
+.content2 {
+  justify-content: start;
+}
+.content2 .tombol {
+  border-radius: 50px;
+  border: 1px solid #000;
+  background: #d4dedf;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: 41px;
+  width: 113px;
+  height: 41px;
+  margin-right: 12px;
+  transition: transform 0.2s;
+}
+
+.content2 button:hover {
+  transform: scale(1.02);
+}
+.content2 .bulat2 {
+  display: flex;
+  width: 65px;
+  height: 41px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  background: #000;
+  transition: transform 0.2s;
+}
+
+.content2 h4 {
+  color: #000;
+  font-family: "inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 142px;
+  margin-left: 41px;
+}
+.content3 {
+  display: flex;
+  justify-content: start;
+}
+.content3 img {
+  width: 51px;
+  height: 51px;
+  margin-left: 41px;
+}
+
+.content3 .img2 {
+  margin-left: -10px;
+}
+.content3 .img3 {
+  margin-left: -10px;
+}
+
+.content4 {
+  align-items: center !important;
+  display: grid;
+}
+.content4 .angka {
+  color: #000;
+  font-family: "inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.content4 .angka2 {
+  color: #000;
+  font-family: "inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+/* CONTENT END */
+
+/* TRENDING */
+#trending {
+  margin-top: 30px;
+}
+.kolom-trending {
+  width: 1300px;
+  height: 331px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  /* margin-bottom: 27px; */
+}
+
+.content5 .tombol {
+  border-radius: 50px;
+  border: 1px solid #000;
+  background: #d4dedf;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: 41px;
+  width: 113px;
+  height: 41px;
+  margin-right: 12px;
+  transition: transform 0.2s;
+  margin-left: -10px;
+}
+.content5 button:hover {
+  transform: scale(1.02);
+}
+
+.content5 .bulat3 {
+  display: flex;
+  width: 65px;
+  height: 41px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  background: #000;
+}
+
+.content5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  height: 100%;
+}
+
+.content5 h1 {
+  color: #000;
+  font-family: "inter";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 112px;
+}
+
+.content5 p {
+  color: #000;
+  font-family: "inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.content6 {
+}
+
+.buku-kopi {
+  margin-top: 71px;
+}
+.anak-buku {
+  margin-top: 17px;
+}
+
+.content7 {
+  display: grid;
+  align-items: end;
+}
+.kolom1 {
+  width: 409px;
+  height: 620px;
+  background: #14b755;
+  margin-right: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px 0px 20px 20px !important;
+
+}
+.kolom2 {
+  width: 423px;
+  height: 510px;
+  background: #ddb7b7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kolom3 {
+  width: 409px;
+  height: 620px;
+  background: #c5b8c9;
+  margin-right: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 29px;
+  border-radius: 0px 20px 20px 20px !important;
+
+}
+
+.buku1 {
+}
+.img-buku1 {
+  width: 370px !important;
+  height: auto !important;
+  border-radius: 0px 8px 8px 0px;
+  box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0);
+}
+.img-buku2 {
+  width: 300px !important;
+  height: auto !important;
+  border-radius: 0px 8px 8px 0px;
+  box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0);
+}
+.content8 {
+  justify-content: center;
+  align-items: center;
+}
+
+.judul-buku {
+  color: #000;
+  font-family: "inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-right: 3px solid black;
+}
+
+.harga-buku {
+  color: #000;
+  font-family: "inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+/* TRENDING END */
+
+/* KOLOM SUSAH */
+.susah {
+  /* margin-top: -27px !important;
+  display: flex; */
+}
+.susah1 {
+  background: #d9d9d9;
+  border-radius: 20px;
+  width: 423px;
+  height: 130px;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+  position: absolute;
+  left: 434px;
+  z-index: -99;
+}
+/* KOLOM SUSAH END */
+
+/* best seller */
+#trending {
+  margin-top: 30px;
+}
+.kolom-trending {
+  width: 1300px;
+  height: fit-content;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  margin-bottom: 27px;
+  
+}
+
+.content9 .tombol {
+  border-radius: 50px;
+  border: 1px solid #000;
+  background: #d4dedf;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: 41px;
+  width: 113px;
+  height: 41px;
+  margin-right: 12px;
+  transition: transform 0.2s;
+  margin-left: -10px;
+}
+.content9 button:hover {
+  transform: scale(1.02);
+}
+
+.content9 .bulat3 {
+  display: flex;
+  width: 65px;
+  height: 41px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  background: #000;
+}
+
+.content9 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.content9 h1 {
+  color: #000;
+  font-family: "inter";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.content9 p {
+  color: #000;
+  font-family: "inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.content6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buku-kopi {
+  margin-top: 71px;
+}
+.anak-buku {
+  margin-top: 17px;
+}
+
+.content7 {
+  display: grid;
+  align-items: end;
+}
+.kolom1 {
+  width: 409px;
+  height: 620px;
+  border-radius: 20px;
+  background: #9faea5;
+  margin-right: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kolom2 {
+  width: 423px;
+  height: 510px;
+  border-radius: 20px;
+  background: #ddb7b7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kolom3 {
+  width: 409px;
+  height: 620px;
+  border-radius: 20px;
+  background: #c5b8c9;
+  margin-right: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 29px;
+}
+
+.buku1 {
+}
+.img-buku1 {
+  width: 370px !important;
+  height: auto !important;
+  border-radius: 0px 8px 8px 0px;
+  box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0);
+}
+.img-buku2 {
+  width: 300px !important;
+  height: auto !important;
+  border-radius: 0px 8px 8px 0px;
+  box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0);
+}
+.content8 {
+  justify-content: center;
+  align-items: center;
+}
+
+.judul-buku {
+  color: #000;
+  font-family: "inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-right: 3px solid black;
+}
+
+.harga-buku {
+  color: #000;
+  font-family: "inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+/* KOLOM BEST SELLER */
+.best-seller {
+  margin-bottom: 30px;
+}
+.best1 {
+  width: 363px !important;
+  height: 270px;
+  border-radius: 20px;
+  background: #d7cd9c;
+  margin-right: 30px;
+  display: flex;
+}
+.best2 {
+  width: 363px !important;
+  height: 270px;
+  border-radius: 20px;
+  display: flex;
+  background: #d3abc1;
+  margin-right: 30px;
+}
+.best3 {
+  width: 513px !important;
+  height: 268px;
+  border-radius: 20px;
+  background: #bbbeac;
+  display: flex;
+}
+.buku {
+  display: flex;
+  height: 100%;
+  align-items: end;
+}
+
+.content10 {
+  display: flex;
+  /* overflow: hidden;   */
+
+}
+.content10 .buku-buku2 {
+  width: 210px;
+  height: auto;
+  align-items: end;
+  margin-bottom: -10px;
+  margin-left: 8px;
+}
+.content10 .content11 {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+.judul-buku2 {
+  color: #000;
+  font-family: "inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-bottom: 3px solid black;
+  padding-bottom: 10px;
+  width: 119px;
+}
+
+.harga-buku2 {
+  color: #000;
+  font-family: "inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.gambar-buku-3 {
+  width: 260px !important;
+  height: auto;
+  border-radius: 0px 8px 0px 0px;
+  box-shadow: 10px 0px 10px 0px rgba(0, 0, 0, 0);
+  margin-bottom: -10px;
+  overflow: hidden;
+  margin-left: 15px;
+}
+/* KOLOM BEST SELLER END */
+
+/* MEETUP */
+.meetup {
+  display: flex;
+  flex-direction: column;
+  width: 755px;
+  height: 270px;
+  border-radius: 20px;
+  background: #d9d9d9;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  position: relative;
+}
+.star4 {
+  position: absolute;
+  top: 40px;
+  right: 50px;
+}
+.star5 {
+  position: absolute;
+  top: 40px;
+  left: 900px;
+}
+.star6 {
+  position: absolute;
+  bottom: 30px;
+  left: 80px;
+}
+.star7 {
+  position: absolute;
+  bottom: 60px;
+  left: 1210px;
+  width: 40px !important;
+}
+.meetup h1 {
+  color: #000;
+  font-family: "inter";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.meetup p {
+  color: #000;
+  font-family: "inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.content12 {
+  display: flex;
+}
+.wrap {
+  display: flex;
+  justify-content: center;
+}
+.content12 .tombol {
+  border-radius: 50px;
+  border: 1px solid #000;
+  background: #d4dedf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 41px;
+  width: 113px;
+  height: 41px;
+  margin-right: 12px;
+  transition: transform 0.2s;
+}
+
+.content12 button:hover {
+  transform: scale(1.02);
+}
+
+.content12 .bulat2 {
+  display: flex;
+  width: 65px;
+  height: 41px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background: #000;
+}
+.content13 {
+  width: 517px;
+  height: 577px;
+  border-radius: 20px;
+  background: #d9d9d9;
+  display: flex;
+}
+.content14 {
+  margin: auto auto;
+  width: fit-content;
+  height: fit-content;
+}
+
+.meet1 {
+  width: 363px !important;
+  height: 270px;
+  border-radius: 20px;
+  background: #d7cd9c;
+  margin-right: 30px;
+  display: flex;
+}
+.meet2 {
+  width: 363px !important;
+  height: 270px;
+  border-radius: 20px;
+  display: flex;
+  background: #d3abc1;
+  margin-right: 15px;
+}
+.buku {
+  display: flex;
+  height: 100%;
+  align-items: end;
+  position: relative;
+}
+
+.content10 {
+  display: flex;
+}
+.content10 .buku .buku-buku {
+  width: 210px;
+  height: auto;
+  align-items: end;
+  margin-bottom: -15px;
+  overflow: hidden;
+  margin-left: 8px;
+}
+
+.content10 .content11 {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.judul-buku2 {
+  color: #000;
+  font-family: "inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-bottom: 3px solid black;
+  padding-bottom: 10px;
+  width: 119px;
+}
+
+.harga-buku2 {
+  color: #000;
+  font-family: "inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+/* MEETUP END */
+
+/* best seller end */
+
+/* genre */
+.head-genre {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 39px;
+  margin-bottom: 20px;
+}
+.head-genre .judul {
+  color: #000;
+  font-family: "inter";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 2-px;
+}
+
+.head-genre p {
+  color: #000;
+  font-family: "inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.head-genre .btn-genre {
+  width: 115px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: 1px solid #000;
+  background: #d9d9d9;
+  margin-right: 30px;
+  margin-bottom: 52px;
+  height: 41px;
+}
+
+/* KOLOM 1 genre */
+.genres {
+  margin-bottom: 30px;
+}
+.genres1 {
+  width: 363px !important;
+  height: 270px;
+  border-radius: 20px;
+  background: rgba(186, 145, 96, 0.64);
+  margin-right: 30px;
+  display: flex;
+}
+.genres2 {
+  width: 363px !important;
+  height: 270px;
+  border-radius: 20px;
+  display: flex;
+  background: #9cb4d7;
+  margin-right: 30px;
+}
+.genres3 {
+  width: 513px !important;
+  height: 268px;
+  border-radius: 20px;
+  background: #d79ca3;
+  display: flex;
+}
+.content10 .buku .buku-buku3 {
+  width: 210px;
+  height: auto;
+  align-items: end;
+  margin-bottom: -15px;
+  overflow: hidden;
+  margin-left: 8px;
+}
+
+/* KOLOM 1 genre END */
+
+/* kolom 2 genre*/
+.genre {
+  padding-bottom: 50px;
+  margin-bottom: 30px;
+  border-bottom: 3px solid black;
+}
+.genre1 {
+  width: 755px !important;
+  height: 268px;
+  border-radius: 20px;
+  background: #c8d79c;
+  margin-right: 30px;
+  display: flex;
+}
+.genre1 .judul-buku2 {
+  width: 130px;
+}
+
+.genre2 {
+  width: 513px !important;
+  height: 268px;
+  border-radius: 20px;
+  background: #d79ca3;
+  display: flex;
+}
+.content10 .buku .buku-buku4 {
+  width: 210px;
+  height: auto;
+  align-items: end;
+  margin-bottom: -11px;
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+/* kolom 2 genre end */
+
+/* genre end */
+
+/* FOOTER */
+.footer-logo {
+  color: #000;
+  font-family: "Inter";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.footer-menu {
+  color: #0c0b0b;
+  font-family: "inter";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 32px;
+}
+.icon-col {
+  display: flex;
+  justify-content: end;
+  align-items: start;
+}
+.icon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 9px;
+}
+.bulat2 {
+  width: 52.92px;
+  height: 52.92px;
+  border-radius: 50%;
+  background: #9a7c49;
+}
+.icon svg {
+  position: absolute;
+}
+.menu a {
+  text-decoration: none;
+}
+
+.menu-menu {
+  color: #111;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+}
+/* FOOTER END */
